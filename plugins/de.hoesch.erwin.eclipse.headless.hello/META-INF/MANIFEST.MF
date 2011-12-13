@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello
+Bundle-SymbolicName: de.hoesch.erwin.eclipse.headless.hello; singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: de.hoesch.erwin.eclipse.headless.hello.Activator
+Bundle-Vendor: Erwin Hoesch
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

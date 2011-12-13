@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Popup
+Bundle-SymbolicName: de.hoesch.erwin.eclipse.headless.popup; singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: de.hoesch.erwin.eclipse.headless.popup.Activator
+Bundle-Vendor: Erwin Hoesch
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
